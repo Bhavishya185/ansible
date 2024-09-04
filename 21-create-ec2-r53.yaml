@@ -5,7 +5,7 @@
     subnet_id: subnet-0ead42941ef2c3abd #replace with your subnet id
     sg_id: "sg-029a4ae8d5cdec217"
     ami_id: "ami-09c813fb71547fc4f"
-    instance:
+    instances:
     -mysql
     -backend
     -frontend
