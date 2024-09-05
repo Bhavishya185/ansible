@@ -12,7 +12,7 @@
     zone: daws81s.shop
   tasks:
   - name: ansible install boto3 and botocore
-    ansible.builtin.pip"
+    ansible.builtin.pip:
       name:
       - boto3
       - botocore
